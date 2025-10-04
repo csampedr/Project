@@ -1,0 +1,52 @@
+/* Comentario: Estilo general */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+/* Selector por elemento */
+h1 {
+  color: darkblue;
+  text-align: center;
+}
+
+/* Selector por clase */
+ul {
+  list-style-type: square;
+  padding: 10px;
+  background: #e0e0e0;
+}
+
+/* Selector por id */
+#special-link {
+  color: red;
+}
+
+/* Layout con Flexbox */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table, th, td {
+  border: 1px solid #333;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Hover effect en links */
+a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  margin-top: 30px;
+  padding: 10px;
+  border-top: 2px solid #333;
+  text-align: center;
+}
